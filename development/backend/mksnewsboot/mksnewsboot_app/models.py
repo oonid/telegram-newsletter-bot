@@ -3,7 +3,7 @@ from django.db import models
 # Create your models here.
 
 
-class news(models.Model):
+class News(models.Model):
     post = models.TextField()
     edisi = models.CharField(max_length=255)
 
@@ -14,4 +14,4 @@ class news(models.Model):
         db_table = ''
         managed = True
         verbose_name = 'news'
-        verbose_name_plural = 'newss'
+        verbose_name_plural = 'news'
